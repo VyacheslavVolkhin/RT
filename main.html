@@ -9,36 +9,1690 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:ital,opsz,wght@1,8..144,500&family=Roboto+Slab:wght@400;500;600;700;900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/reset.css" />
-    <link rel="stylesheet" href="./css/jquery.fancybox.min.css" />
+    <link rel="stylesheet" href="./css/swipebox.min.css" />
     <link rel="stylesheet" href="./css/slick.css" />
     <link rel="stylesheet" href="./css/style.min.css" />
+    <style>
+        .tile-many-lines {
+            -webkit-box-orient: vertical;
+        }
+    </style>
+    <script src="./js/jquery.min.js" defer></script>
+    <script src="./js/slick.min.js" defer></script>
+    <script src="./js/jquery.swipebox.min.js" defer></script>
+    <script src="./js/jquery.maskedinput.min.js" defer></script>
+    <script src="./js/scripts.js" defer></script>
 </head>
 
 <body>
     <!-- wrap -->
-    <div class="wrap">
+    <div class="wrap wrap-main">
 
 
         <!-- header -->
         <header class="header">
             <div class="inner-wrap">
-                44444
+                <div class="logo-wrap">
+                    <a href="" class="logo">
+                        <img src="./img/main/logo.png" alt="">
+                    </a>
+                </div>
+                <div class="popup-menu-wrap js-popup-wrap">
+                    <a href="" class="btn-popup btn-action-ico ico-menu js-btn-popup-toggle"></a>
+                    <div class="popup-content-block js-popup-block">
+                        <ul class="menu">
+                            <li class="submenu">
+                                <a href="">Общество</a>
+                                <ul>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="">Политика</a>
+                                <ul>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="">Публицистика</a>
+                                <ul>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="">Культура</a>
+                                <ul>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="">Истории</a>
+                                <ul>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="">Экономика</a>
+                                <ul>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                </ul>
+                            </li>
+                            <li class="submenu">
+                                <a href="">L-трон</a>
+                                <ul>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                    <li><a href="">Пункт меню</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="">Контакты</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="popup-search-wrap js-popup-wrap">
+                    <a href="" class="btn-popup btn-action-ico ico-search js-btn-popup-toggle"></a>
+                    <div class="popup-content-block js-popup-block">
+                        <form action="/" class="frm-main-search">
+                            <input type="text" class="form-input" placeholder="Поиск">
+                            <button type="submit" class="btn-action-ico ico-search"></button>
+                        </form>
+                    </div>
+                </div>
             </div>
         </header>
         <!-- /header -->
 
         <!-- page -->
-        <div class="page">
-            2222
+        <div class="page-full">
+
+            <!--actions-box-->
+            <div class="actions-box">
+                <div class="items-wrap section-mobile-full">
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-action">
+                            <picture class="elm-photo">
+                                <source srcset="./img/action01-d.jpg" media="(min-width: 768px)">
+                                <source srcset="./img/action01-m.jpg">
+                                <img src="./img/action01-d.jpg" alt="" />
+                            </picture>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                </div>
+            </div>
+            <!--/actions-box-->
+
+            <!--content-outer-wrap-->
+            <div class="content-outer-wrap elm-hidden-mobile">
+
+                <!--content-wrap-->
+                <div class="content-wrap">
+                    <!--main-news-box-->
+                    <div class="main-news-box">
+                        <div class="main-inner-wrap">
+                            <a href="" class="item-tile-new">
+                                <span class="tile-photo-wrap">
+                                    <span class="tile-photo photo-cover">
+                                        <img src="./img/new01.jpg" alt="">
+                                    </span>
+                                </span>
+                                <span class="tile-info-wrap">
+                                    <span class="tile-tags-wrap">
+                                        <span class="btn button-tag-inner">Новости</span>
+                                    </span>
+                                    <span class="tile-title-wrap">
+                                        <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                        <span class="tile-text tile-many-lines">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                    </span>
+                                    <span class="tile-user-wrap">
+                                        <span class="elm-user">
+                                            <span class="elm-photo photo-cover">
+                                                <!--img-->
+                                            </span>
+                                            <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                        </span>
+                                    </span>
+                                    <span class="tile-actions-wrap">
+                                        <span class="tile-info tile-info-ico">
+                                            <span class="tile-ico">
+                                                <img src="./img/icons/views.svg" alt="">
+                                            </span>
+                                            51369
+                                        </span>
+                                        <span class="tile-info">15 часов назад</span>
+                                    </span>
+                                </span>
+                            </a>
+                        </div>
+                        <div class="slider-inner-wrap">
+                            <div class="slider-wrap">
+                                <div class="slider">
+                                    <!--sl-wrap-->
+                                    <div class="sl-wrap">
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <!--/sl-wrap-->
+                                    <!--sl-wrap-->
+                                    <div class="sl-wrap">
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <!--/sl-wrap-->
+                                    <!--sl-wrap-->
+                                    <div class="sl-wrap">
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <!--/sl-wrap-->
+                                    <!--sl-wrap-->
+                                    <div class="sl-wrap">
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                        <a href="" class="item-tile-new">
+                                            <span class="tile-photo-wrap">
+                                                <span class="tile-photo photo-cover">
+                                                    <img src="./img/new01.jpg" alt="">
+                                                </span>
+                                            </span>
+                                            <span class="tile-info-wrap">
+                                                <span class="tile-title-wrap">
+                                                    <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                                    <span class="tile-text tile-many-lines">Спортивную школу дзюдо с бесплатными тренировками построят в микрорайоне Чурилово. Вокруг спорткомплекса, где сейчас расположено большое болото, появится благоустроенная территория с пешеходными дорожками, зоной для занятий воркаутом, полем для мини-футбола, газоном и высаженными деревьями. Об этом сообщила пресс-служба инвестора проекта — Челябинского электрометаллургического комбината.</span>
+                                                </span>
+                                                <span class="tile-actions-wrap">
+                                                    <span class="tile-info tile-info-ico">
+                                                        <span class="tile-ico">
+                                                            <img src="./img/icons/views.svg" alt="">
+                                                        </span>
+                                                        51369
+                                                    </span>
+                                                    <span class="tile-info">15 часов назад</span>
+                                                </span>
+                                            </span>
+                                        </a>
+                                    </div>
+                                    <!--/sl-wrap-->
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/main-news-box-->
+                </div>
+                <!--/content-wrap-->
+
+                <!--side-wrap-->
+                <div class="side-wrap">
+                    <!--side-box-->
+                    <div class="side-box">
+                        <div class="items-wrap">
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <div class="item-tile-video">
+                                    <div class="tile-photo-wrap">
+                                        <div class="tile-video js-video" data-video="https://www.youtube.com/embed/ScMzIvxBSi4?controls=0">
+                                        </div>
+                                    </div>
+                                    <div class="tile-info-wrap">
+                                        <div class="tile-title"><a href="">На северо-западе Челябинска на месяц закроют улицу</a></div>
+                                        <div class="tile-actions-wrap">
+                                            <div class="tile-info tile-info-ico">
+                                                <div class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </div>
+                                                51369
+                                            </div>
+                                            <div class="tile-info">15 часов назад</div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item-tile-video">
+                                    <div class="tile-photo-wrap">
+                                        <div class="tile-video js-video" data-video="https://www.youtube.com/embed/ScMzIvxBSi4?controls=0">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--/item wrap-->
+                        </div>
+                    </div>
+                    <!--/side-box-->
+                </div>
+                <!--/side-wrap-->
+
+            </div>
+            <!--/content-outer-wrap-->
+
+            <!--content-outer-wrap-->
+            <div class="content-outer-wrap">
+
+                <!--content-wrap-->
+                <div class="content-wrap">
+
+                    <!--actions-box-->
+                    <div class="actions-box elm-hidden-mobile">
+                        <div class="items-wrap">
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-action">
+                                    <picture class="elm-photo">
+                                        <source srcset="./img/action03-d.jpg" media="(min-width: 768px)">
+                                        <source srcset="./img/action03-m.jpg">
+                                        <img src="./img/action03-d.jpg" alt="">
+                                    </picture>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                        </div>
+                    </div>
+                    <!--/actions-box-->
+
+                    <!--news-main-box-->
+                    <div class="news-main-box">
+                        <div class="items-wrap">
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new01.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new02.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap-mobile-full">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new03.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap-mobile-full wrap-max-2">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new03.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                            <span class="btn button-tag-inner">Видео</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Фото/видео: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap-max-1">
+                                <a href="" class="item-tile-action">
+                                    <span class="elm-photo">
+                                        <img src="./img/action-side03.jpg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new04.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new04.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new01.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap-mobile-full">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new02.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap-mobile-full">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new03.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/new04.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap-max-1">
+                                <a href="" class="item-tile-action">
+                                    <span class="elm-photo">
+                                        <img src="./img/action-side02.jpg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap wrap-max-2">
+                                <a href="" class="item-tile-new tile-main">
+                                    <span class="tile-photo-wrap">
+                                        <span class="tile-photo photo-cover">
+                                            <img src="./img/video.jpg" alt="">
+                                        </span>
+                                    </span>
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-tags-wrap">
+                                            <span class="btn button-tag-inner">Новости</span>
+                                        </span>
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">В горах Челябинской области выпал первый снег</span>
+                                            <span class="tile-text">В последний день лета, 31 августа, в горах национального парка «Таганай» Челябинской области выпал первый снег. Окутанную снежным покровом вершину запечатлели туристы.</span>
+                                        </span>
+                                        <span class="tile-user-wrap">
+                                            <span class="elm-user">
+                                                <span class="elm-photo photo-cover">
+                                                    <!--img-->
+                                                </span>
+                                                <span class="user-title">Автор: <span class="user-name">Полина Тиунова</span></span>
+                                            </span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                        </div>
+                        <div class="load-box elm-hidden-mobile">
+                            <a href="" class="btn-action-load">Загрузить ещё</a>
+                        </div>
+                        <div class="more-box elm-hidden-desktop">
+                            <a href="" class="btn button-border">
+                                <span class="button-title">Все новости</span>
+                            </a>
+                        </div>
+                    </div>
+                    <!--/news-main-box-->
+
+                    <!--main-photos-box-->
+                    <div class="main-photos-box">
+                        <div class="title-box title-decor">
+                            <h2 class="h2-title">Фото дня</h2>
+                        </div>
+                        <div class="photos-slider-box">
+                            <div class="slider-wrap">
+                                <div class="slider">
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-preview-wrap">
+                                <div class="slider">
+                                    <div class="sl-wrap active">
+                                        <div class="elm-photo" data-slide="0">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo" data-slide="1">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo" data-slide="2">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo" data-slide="3">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo" data-slide="4">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo" data-slide="5">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo" data-slide="6">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                    <div class="sl-wrap">
+                                        <div class="elm-photo" data-slide="7">
+                                            <img src="./img/slider.jpg" alt="">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="slider-tile-wrap">
+                                    <div class="slider-tile">
+                                        <div class="tile-title-wrap">
+                                            <div class="tile-title">Еще 15</div>
+                                            <div class="tile-info"><a href="" class="link-main">Смотреть</a></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="slider-info-wrap">
+                                <div class="slider-title">В Челябинске открылся уличный фестиваль современного искусства</div>
+                                <div class="slider-text">Днём в субботу, 26 августа, в Челябинске открылся уличный фестиваль современного изобразительного искусства «Неискусственно».</div>
+                                <div class="slider-actions-wrap">
+                                    <div class="slider-users-wrap">
+                                        <div class="elm-user">
+                                            <div class="elm-photo photo-cover">
+                                                <!--img-->
+                                            </div>
+                                            <div class="user-title">Автор: <div class="user-name">Полина Тиунова</div>
+                                            </div>
+                                        </div>
+                                        <div class="elm-user">
+                                            <div class="elm-photo photo-cover">
+                                                <!--img-->
+                                            </div>
+                                            <div class="user-title">Фото/видео: <div class="user-name">Полина Тиунова</div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="slider-list-wrap">
+                                        <div class="slider-info">15 часов назад</div>
+                                        <div class="slider-info">1432 просмотров</div>
+                                    </div>
+                                    <div class="slider-soc-wrap">
+                                        <a href="" class="btn-action-ico button-soc button-soc-tg">
+                                            <img src="./img/icons/soc01.svg" alt="">
+                                        </a>
+                                        <a href="" class="btn-action-ico button-soc button-soc-vk">
+                                            <img src="./img/icons/soc03.svg" alt="">
+                                        </a>
+                                        <a href="" class="btn-action-ico button-soc button-soc-yt">
+                                            <img src="./img/icons/soc02.svg" alt="">
+                                        </a>
+                                        <a href="" class="btn-action-ico button-soc button-soc-tt">
+                                            <img src="./img/icons/soc04.svg" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="slider-tags">
+                                    <span class="btn button-tag-inner">Новости</span>
+                                    <span class="btn button-tag-inner">Фотографии</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--/main-photos-box-->
+
+                </div>
+                <!--/content-wrap-->
+
+                <!--side-wrap-->
+                <div class="side-wrap">
+                    <!--side-box-->
+                    <div class="side-box">
+                        <div class="side-title">Лента новостей</div>
+                        <div class="items-wrap">
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">Челябинские травматологи поставили на ноги байкера после страшной аварии</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">Челябинские травматологи поставили на ноги байкера после страшной аварии</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-action">
+                                    <span class="elm-photo">
+                                        <img src="./img/action-side01.jpg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">Челябинские травматологи поставили на ноги байкера после страшной аварии</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">Челябинские травматологи поставили на ноги байкера после страшной аварии</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">На северо-западе Челябинска на месяц закроют улицу</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">Челябинские травматологи поставили на ноги байкера после страшной аварии</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-new">
+                                    <span class="tile-info-wrap">
+                                        <span class="tile-title-wrap">
+                                            <span class="tile-title">Челябинские травматологи поставили на ноги байкера после страшной аварии</span>
+                                        </span>
+                                        <span class="tile-actions-wrap">
+                                            <span class="tile-info tile-info-ico">
+                                                <span class="tile-ico">
+                                                    <img src="./img/icons/views.svg" alt="">
+                                                </span>
+                                                51369
+                                            </span>
+                                            <span class="tile-info">15 часов назад</span>
+                                        </span>
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-action">
+                                    <span class="elm-photo">
+                                        <img src="./img/action-side03.jpg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                            <!--item wrap-->
+                            <div class="item-wrap">
+                                <a href="" class="item-tile-action">
+                                    <span class="elm-photo">
+                                        <img src="./img/action-side03.jpg" alt="">
+                                    </span>
+                                </a>
+                            </div>
+                            <!--/item wrap-->
+                        </div>
+                    </div>
+                    <!--/side-box-->
+                </div>
+                <!--/side-wrap-->
+
+            </div>
+            <!--/content-outer-wrap-->
+
+            <!--actions-box-->
+            <div class="actions-box">
+                <div class="items-wrap section-mobile-full">
+                    <!--item wrap-->
+                    <div class="item-wrap">
+                        <a href="" class="item-tile-action">
+                            <picture class="elm-photo">
+                                <source srcset="./img/action02-d.jpg" media="(min-width: 768px)">
+                                <source srcset="./img/action02-m.jpg">
+                                <img src="./img/action02-d.jpg" alt="" />
+                            </picture>
+                        </a>
+                    </div>
+                    <!--/item wrap-->
+                </div>
+            </div>
+            <!--/actions-box-->
+
         </div>
         <!-- /page -->
 
 
         <!-- footer -->
         <footer class="footer">
-            <div class="inner-wrap">
-                333333
+            <div class="footer-main-panel cnt-section">
+                <div class="inner-wrap">
+                    <div class="info-inner-wrap">
+                        <div class="logo-wrap">
+                            <a href="" class="logo">
+                                <img src="./img/main/logo-light.png" alt="">
+                            </a>
+                        </div>
+                        <div class="info-wrap">Сетевое издание зарегистрировано Федеральной службой по надзору в сфере связи, информационных технологий и массовых коммуникаций (Роскомнадзор). Свидетельство о регистрации СМИ №__________ от ____________ г.Учредитель: ООО «_______________А». Главный редактор: ___________________.Адрес редакции:________________________.Контактные данные для Роскомнадзора и государственных органов:____________________.</div>
+                    </div>
+                    <div class="menu-inner-wrap">
+                        <div class="footer-title">Рубрики</div>
+                        <ul class="menu">
+                            <li><a href="">Общество</a></li>
+                            <li><a href="">Политика</a></li>
+                            <li><a href="">Публицистика</a></li>
+                            <li><a href="">Культура</a></li>
+                            <li><a href="">Истории</a></li>
+                            <li><a href="">L-трон</a></li>
+                            <li><a href="">Экономика</a></li>
+                            <li><a href="">Контакты</a></li>
+                        </ul>
+                    </div>
+                    <div class="contacts-inner-wrap">
+                        <div class="contacts-menu-wrap">
+                            <div class="footer-title">По вопросам рекламы</div>
+                            <ul class="menu">
+                                <li><a href="tel:81111111111">+7 (111) 111 11 11</a></li>
+                                <li><a href="mailto:pochta@pochta.ru">pochta@pochta.ru</a></li>
+                                <li><a href="">Реклама на сайте</a></li>
+                            </ul>
+                        </div>
+                        <div class="soc-inner-wrap">
+                            <div class="footer-title">Подписывайтесь на нас</div>
+                            <div class="soc-wrap">
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc01.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc02.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc03.svg" alt="">
+                                </a>
+                                <a href="" class="btn-action-ico button-soc">
+                                    <img src="./img/icons/soc04.svg" alt="">
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom-panel cnt-section">
+                <div class="inner-wrap">
+                    <div class="info-inner-wrap">
+                        <div class="info-wrap">2023 г © Все права защищены.</div>
+                        <div class="info-wrap">
+                            <ul class="menu">
+                                <li>ОГРН: 1237750228740</li>
+                                <li>ИНН: 056203556760</li>
+                            </ul>
+                        </div>
+                        <div class="info-wrap">
+                            <div class="info-title">Разработано в</div> <a href=""><b>ВебУспех</b></a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </footer>
         <!-- /footer -->
@@ -46,11 +1700,7 @@
     </div>
     <!-- /wrap -->
 
-    <script src="./js/jquery.min.js"></script>
-    <script src="./js/jquery.fancybox.min.js"></script>
-    <script src="./js/slick.min.js"></script>
-    <script src="./js/jquery.maskedinput.min.js"></script>
-    <script src="./js/scripts.js"></script>
+
 
 </body>
 

@@ -1,27 +1,48 @@
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
-textarea,
-input[type="text"],
-input[type="password"],
-input[type="email"],
-input[type="number"],
-input[type="range"],
-input[type="search"],
-input[type="tel"],
-input[type="url"] {
-	
+.frm-field-file {
+    display: block;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    .field-file-caption {
+        font-size: 14px;
+        font-weight: 500;
+        line-height: 24px;
+        letter-spacing: 0.1px;
+        text-align: center;
+        display: block;
+        margin-bottom: 10px;
+    }
+    input[type="file"] {
+        display: block;
+        width: 0;
+        height: 0;
+        padding: 0;
+        margin: 0;
+        font-size: 0;
+        opacity: 0;
+        top: 110%;
+        left: 110%;
+        position: absolute;
+        z-index: -999;
+    }
 }
-textarea {
-	height: 100px;
-	padding-top: 10px;
-	padding-bottom: 10px;
-	resize: none;
-}
-.btn,
-button,
-input[type="submit"] {
-	
+.frm-main-search {
+    display: block;
+    position: relative;
+    line-height: 1;
+    .form-input {
+        padding-right: 40px;
+        height: 40px;
+    }
+    .btn-action-ico {
+        position: absolute;
+        top: 0;
+        right: 0;
+        z-index: 2;
+    }
 }
 .frm-row,
 .frm-field,
@@ -30,6 +51,10 @@ input[type="submit"] {
     flex-wrap: wrap;
 	position: relative;
 	line-height: 1;
+}
+.frm-field {
+    display: block;
+    width: 100%;
 }
 .frm-select {
 	position: relative;
@@ -55,4 +80,15 @@ input[type="submit"] {
             position: absolute;
         }
 	}
+}
+@media (min-width: 1024px) {
+    .frm-field-file {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .field-file-caption {
+            padding: 0 3rem 0 0;
+            margin: 0;
+        }
+    }
 }
