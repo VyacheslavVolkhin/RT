@@ -371,6 +371,50 @@ html {
     .popup-menu-wrap {
         .popup-content-block {
             display: none;
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: #fff;
+            z-index: 10;
+            padding: 80px 0 0 0;
+        }
+        .menu {
+            font-size: 20px;
+            text-align: center;
+            line-height: 28px;
+            max-height: 100%;
+            overflow-y: auto;
+            overflow-x: hidden;
+            scrollbar-width: none;
+            -ms-overflow-style: none;
+            &::-webkit-scrollbar {
+                width: 0;
+                height: 0;
+            }
+            ul {
+                animation: fadein ease 0.2s;
+                display: none;
+                padding: 10px 0;
+                font-size: 16px;
+                a {
+                    padding-top: 2px;
+                    padding-bottom: 2px;
+                }
+            }
+            a {
+                padding: 5px 15px;
+                display: block;
+            }
+            .open {
+                ul {
+                    display: block;
+                }
+            }
+        }
+        .btn-popup {
+            z-index: 20;
         }
     }
     .popup-search-wrap {
