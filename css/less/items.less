@@ -1,6 +1,31 @@
 /* ----------------------------------- *\
 			items styles
 \* ----------------------------------- */
+.item-tile-comment {
+    background: #fff;
+    display: block;
+    color: var(--clr-light);
+    padding: 8px 15px;
+    .tile-title-wrap {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 -8px 0 0;
+    }
+    .tile-info {
+        flex-shrink: 0;
+        max-width: 100%;
+        padding: 0 8px 0 0;
+        margin-bottom: 8px;
+        &:last-child {
+            color: var(--clr-base);
+        }
+    }
+    a {
+        &:not(:hover) {
+            color: inherit;
+        }
+    }
+}
 .item-tile-new {
     display: flex;
     color: var(--clr-base);
