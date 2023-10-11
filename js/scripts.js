@@ -1,3 +1,5 @@
+
+
 //mobile menu
 const menuButton = document.querySelectorAll('.popup-menu-wrap li a');
 for (i = 0;i < menuButton.length;i++) {
@@ -125,6 +127,19 @@ popupElements.forEach(element => {
 
 
 $(window).on('load', function () {
+
+
+	//animate anchor scroll
+	$('.js-anchor').on("click", function (e) {
+		var anchor = $(this);
+		$('html, body').stop().animate({
+			scrollTop: $(anchor.attr('href')).offset().top - 100
+		}, 1000);
+		e.preventDefault();
+		return false;
+	});
+	
+	
 	//tile-video
 	$('.js-video').each(function() {
 		let videoURL = $(this).attr('data-video');
