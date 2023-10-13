@@ -3291,6 +3291,16 @@ select.form-input:required:invalid {
   position: absolute;
   z-index: -999;
 }
+.frm-field-file .btn {
+  max-width: 220px;
+}
+.frm-field-file .btn .button-title {
+  max-width: 150px;
+  white-space: nowrap;
+  position: relative;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
 .frm-main-search {
   display: block;
   position: relative;

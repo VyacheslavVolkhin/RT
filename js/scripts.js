@@ -211,4 +211,21 @@ $(window).on('load', function () {
 		})
 		$('.photos-slider-box .elm-photo[data-slide="0"]').parent('.sl-wrap').addClass('active');
 	}
+
+
+	//file input 
+	$('.js-field-file .js-file-button').on('click', function () {
+		$(this).parent().find('.js-field-input').click();
+		return false;
+	})
+	$('.js-field-file input[type=file]').on('change', function () {
+		let fileName = ('' + $(this).val());
+		
+		if (fileName == "") {
+			fileName = $(this).parent().find('.js-file-button').attr('data-title');
+			$(this).parent().removeClass('active').find('.js-file-button').find('.button-title').html(fileName);
+		} else {
+			$(this).parent().addClass('active').find('.js-file-button').find('.button-title').html(fileName);
+		}
+	});
 });
